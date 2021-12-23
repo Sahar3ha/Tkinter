@@ -2,7 +2,7 @@ from tkinter import *
 
 root=Tk()
 
-z=Label(root, text="Registration Form").grid(row=0,column=3)
+z=Label(root, text="Registration Form",font=23).grid(row=0,column=3)
 a=Label(root, text="First name").grid(row=2,column=0)
 e1=Entry(root).grid(row=2,column=5)
 b=Label(root, text="Last name").grid(row=4,column=0)
